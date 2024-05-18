@@ -48,3 +48,10 @@
 2024-05-18 23:46:00 info: ::1 - - [18/May/2024:18:16:00 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 2024-05-18 23:46:13 info: ::1 - - [18/May/2024:18:16:13 +0000] "GET /blocking-endpoint HTTP/1.1" 200 20 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 2024-05-18 23:46:13 info: ::1 - - [18/May/2024:18:16:13 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-18 23:46:40 info: Server is running on port 8080
+2024-05-18 23:46:44 info: ::1 - - [18/May/2024:18:16:44 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-18 23:46:48 info: ::1 - - [18/May/2024:18:16:48 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-18 23:46:48 info: ::1 - - [18/May/2024:18:16:48 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-18 23:46:48 info: ::1 - - [18/May/2024:18:16:48 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-18 23:46:48 info: ::1 - - [18/May/2024:18:16:48 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-18 23:46:48 info: ::1 - - [18/May/2024:18:16:48 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
