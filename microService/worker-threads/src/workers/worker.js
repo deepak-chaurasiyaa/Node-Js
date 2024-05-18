@@ -1,8 +1,8 @@
-import { parentPort, workerData } from 'worker_threads';
+import { parentPort } from 'worker_threads';
 
 let counter = 0;
-for (let i = 0; i < workerData; i++) {
-  counter++;
+for (let i = 0; i < 1e12; i++) {
+	counter++;
 }
 
 parentPort.postMessage(counter);

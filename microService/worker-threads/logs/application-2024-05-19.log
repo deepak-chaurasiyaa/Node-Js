@@ -49,3 +49,60 @@
 2024-05-19 00:39:24 info: ::1 - - [18/May/2024:19:09:24 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 2024-05-19 00:39:25 info: ::1 - - [18/May/2024:19:09:25 +0000] "GET /blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 2024-05-19 00:39:26 info: ::1 - - [18/May/2024:19:09:26 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:56:56 info: Server is running on port 8080
+2024-05-19 00:57:24 info: Server is running on port 8080
+2024-05-19 00:57:40 info: Server is running on port 8080
+2024-05-19 00:58:15 info: Server is running on port 8080
+2024-05-19 00:59:11 info: Server is running on port 8080
+2024-05-19 01:00:37 info: Server is running on port 8080
+2024-05-19 01:01:25 info: Server is running on port 8080
+2024-05-19 01:03:15 info: Server is running on port 8080
+2024-05-19 01:06:18 info: Server is running on port 8080
+2024-05-19 01:06:58 info: Server is running on port 8080
+2024-05-19 01:11:20 info: Server is running on port 8080
+2024-05-19 01:11:56 info: Server is running on port 8080
+2024-05-19 01:12:30 info: Server is running on port 8080
+2024-05-19 01:12:48 info: Server is running on port 8080
+2024-05-19 01:13:00 info: Server is running on port 8080
+2024-05-19 01:14:27 info: Server is running on port 8080
+2024-05-19 01:14:42 info: Server is running on port 8080
+2024-05-19 01:15:54 info: Server is running on port 8080
+2024-05-19 01:16:10 info: Server is running on port 8080
+2024-05-19 01:16:33 info: Server is running on port 8080
+2024-05-19 01:17:01 info: Server is running on port 8080
+2024-05-19 01:17:15 info: ::1 - - [18/May/2024:19:47:15 +0000] "GET /fout/non-blocking HTTP/1.1" 404 156 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:17:21 info: ::1 - - [18/May/2024:19:47:21 +0000] "GET /four/non-blocking HTTP/1.1" 200 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:18:25 info: Server is running on port 8080
+2024-05-19 01:18:34 info: Server is running on port 8080
+2024-05-19 01:19:18 info: Server is running on port 8080
+2024-05-19 01:19:53 info: ::1 - - [18/May/2024:19:49:53 +0000] "GET /four/blocking HTTP/1.1" 200 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:19:55 info: Server is running on port 8080
+2024-05-19 01:20:07 info: Server is running on port 8080
+2024-05-19 01:20:36 info: Server is running on port 8080
+2024-05-19 01:20:46 info: Server is running on port 8080
+2024-05-19 01:20:57 info: Server is running on port 8080
+2024-05-19 01:21:38 info: Server is running on port 8080
+2024-05-19 01:21:55 info: Server is running on port 8080
+2024-05-19 01:23:44 info: ::1 - - [18/May/2024:19:53:44 +0000] "GET /four/blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:23:56 info: ::1 - - [18/May/2024:19:53:56 +0000] "GET /four/blocking HTTP/1.1" 200 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:24:42 info: ::1 - - [18/May/2024:19:54:42 +0000] "GET /blocking HTTP/1.1" 200 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:24:44 info: ::1 - - [18/May/2024:19:54:44 +0000] "GET /four/blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 01:26:13 info: ::ffff:127.0.0.1 - - [18/May/2024:19:56:13 +0000] "GET /four/blocking HTTP/1.1" 200 21 "-" "curl/7.85.0"
+2024-05-19 01:26:55 info: ::ffff:127.0.0.1 - - [18/May/2024:19:56:55 +0000] "GET /blocking HTTP/1.1" 200 21 "-" "curl/7.85.0"
+2024-05-19 01:27:34 info: ::ffff:127.0.0.1 - - [18/May/2024:19:57:34 +0000] "GET /blocking HTTP/1.1" 200 21 "-" "curl/7.85.0"
+2024-05-19 01:28:03 info: ::ffff:127.0.0.1 - - [18/May/2024:19:58:03 +0000] "GET /four/blocking HTTP/1.1" 200 21 "-" "curl/7.85.0"
+2024-05-19 01:28:25 info: Server is running on port 8080
+2024-05-19 01:28:34 info: Server is running on port 8080
+2024-05-19 01:28:37 info: ::ffff:127.0.0.1 - - [18/May/2024:19:58:37 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:28:43 info: ::ffff:127.0.0.1 - - [18/May/2024:19:58:43 +0000] "GET /blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:28:51 info: ::ffff:127.0.0.1 - - [18/May/2024:19:58:51 +0000] "GET /blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:28:57 info: ::ffff:127.0.0.1 - - [18/May/2024:19:58:57 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:11 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:11 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:14 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:14 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:18 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:18 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:21 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:21 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:24 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:24 +0000] "GET /four/blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:32 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:32 +0000] "GET /blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:38 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:38 +0000] "GET /blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:29:43 info: ::ffff:127.0.0.1 - - [18/May/2024:19:59:43 +0000] "GET /blocking HTTP/1.1" 200 20 "-" "curl/7.85.0"
+2024-05-19 01:30:05 info: Server is running on port 8080

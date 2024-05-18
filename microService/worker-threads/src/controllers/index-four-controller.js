@@ -11,6 +11,7 @@ export class IndexController {
 	 */
 	constructor(counter = 2e10) {
 		this.counter = counter;
+		this.THREAD_COUNT = 4;
 	}
 
 	/**
@@ -28,21 +29,31 @@ export class IndexController {
 	 * @param {object} response - The Express response object.
 	 */
 	blockingEndpoint = async (request, response) => {
-		const workerPath = path.resolve('src/workers/worker.js');
-		const worker = new Worker(workerPath);
-
-		worker.on('message', (result) => {
-			response.status(200).send(`Result is ${result}`);
-		});
-
-		worker.on('error', (error) => {
-			response.status(500).send(`Worker error: ${error.message}`);
-		});
-
-		worker.on('exit', (code) => {
-			if (code !== 0) {
-				console.error(`Worker stopped with exit code ${code}`);
-			}
-		});
+		const workerPromises = [];
+		for (let i = 0; i < this.THREAD_COUNT; i++) {
+			workerPromises.push(this.createWorker());
+		}
+		const thread_results = await Promise.all(workerPromises);
+		const total = thread_results.reduce((acc, curr) => acc + curr, 0);
+		response.status(200).send(`Result is ${total}`);
 	};
+	createWorker() {
+		return new Promise((resolve, rejects) => {
+			const workerPath = path.resolve('src/workers/four-workers.js');
+			const worker = new Worker(workerPath, { workerData: { thread_count: this.THREAD_COUNT } });
+			worker.on('message', (result) => {
+				resolve(result);
+			});
+
+			worker.on('error', (error) => {
+				rejects(`Worker error: ${error.message}`);
+			});
+
+			worker.on('exit', (code) => {
+				if (code !== 0) {
+					console.error(`Worker stopped with exit code ${code}`);
+				}
+			});
+		});
+	}
 }
