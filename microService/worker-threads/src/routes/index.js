@@ -1,18 +1,17 @@
 import express from 'express';
-import Logger from '../config/logger.js';
 import { IndexController } from '../controllers/index.controller.js';
 
 const router = express.Router();
+const indexController = new IndexController();
 
-const { nonBlockingEndpoint, blockingEndPoint } = new IndexController();
+/**
+ * Route for non-blocking endpoint.
+ */
+router.get('/non-blocking', indexController.nonBlockingEndpoint);
 
-router.get('/', (req, res) => {
-	Logger.logInfo('Hello, World! endpoint was hit');
-	res.send('Hello, World!');
-});
-
-router.get('/non-blocking-endpoint', nonBlockingEndpoint);
-
-router.get('/blocking-endpoint', blockingEndPoint);
+/**
+ * Route for blocking endpoint.
+ */
+router.get('/blocking', indexController.blockingEndpoint);
 
 export default router;

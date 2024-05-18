@@ -1,0 +1,51 @@
+2024-05-19 00:21:59 info: Server is running on port 8080
+2024-05-19 00:23:03 info: Server is running on port 8080
+2024-05-19 00:24:03 info: Server is running on port 8080
+2024-05-19 00:25:28 info: Server is running on port 8080
+2024-05-19 00:26:00 info: Server is running on port 8080
+2024-05-19 00:26:22 info: Server is running on port 8080
+2024-05-19 00:27:24 info: Server is running on port 8080
+2024-05-19 00:28:35 info: Server is running on port 8080
+2024-05-19 00:29:14 info: Server is running on port 8080
+2024-05-19 00:29:43 info: Server is running on port 8080
+2024-05-19 00:29:56 info: Server is running on port 8080
+2024-05-19 00:30:29 info: ::1 - - [18/May/2024:19:00:29 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:30:30 info: ::1 - - [18/May/2024:19:00:30 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:30:33 info: ::1 - - [18/May/2024:19:00:33 +0000] "GET /blocking-endpoint HTTP/1.1" 404 116 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:31:03 info: Server is running on port 8080
+2024-05-19 00:31:18 info: Server is running on port 8080
+2024-05-19 00:31:49 info: Server is running on port 8080
+2024-05-19 00:32:06 info: Server is running on port 8080
+2024-05-19 00:32:53 info: Server is running on port 8080
+2024-05-19 00:33:11 info: Server is running on port 8080
+2024-05-19 00:33:23 info: Server is running on port 8080
+2024-05-19 00:33:27 info: Server is running on port 8080
+2024-05-19 00:33:38 info: ::1 - - [18/May/2024:19:03:38 +0000] "GET /non-blocking-endpoint HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:33:42 info: ::1 - - [18/May/2024:19:03:42 +0000] "GET /blocking-endpoint HTTP/1.1" 500 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:33:43 info: ::1 - - [18/May/2024:19:03:43 +0000] "GET /blocking-endpoint HTTP/1.1" 500 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:33:44 info: ::1 - - [18/May/2024:19:03:44 +0000] "GET /blocking-endpoint HTTP/1.1" 500 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:35:32 info: Server is running on port 8080
+2024-05-19 00:35:47 info: Server is running on port 8080
+2024-05-19 00:36:08 info: Server is running on port 8080
+2024-05-19 00:36:31 info: Server is running on port 8080
+2024-05-19 00:36:45 info: ::1 - - [18/May/2024:19:06:45 +0000] "GET /non-blocking-endpoint HTTP/1.1" 404 160 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:36:47 info: ::1 - - [18/May/2024:19:06:47 +0000] "GET /non-blocking-endpoint HTTP/1.1" 404 160 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:37:05 info: ::1 - - [18/May/2024:19:07:05 +0000] "GET /non-blocking HTTP/1.1" 200 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:37:13 info: ::1 - - [18/May/2024:19:07:13 +0000] "GET /blocking HTTP/1.1" 500 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:38:04 info: Server is running on port 8080
+2024-05-19 00:38:38 info: Server is running on port 8080
+2024-05-19 00:39:01 info: ::1 - - [18/May/2024:19:09:01 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:08 info: ::1 - - [18/May/2024:19:09:08 +0000] "GET /blocking HTTP/1.1" 200 20 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:09 info: ::1 - - [18/May/2024:19:09:09 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:10 info: ::1 - - [18/May/2024:19:09:10 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:11 info: ::1 - - [18/May/2024:19:09:11 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:12 info: ::1 - - [18/May/2024:19:09:12 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:12 info: ::1 - - [18/May/2024:19:09:12 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:12 info: ::1 - - [18/May/2024:19:09:12 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:13 info: ::1 - - [18/May/2024:19:09:13 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:13 info: ::1 - - [18/May/2024:19:09:13 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:16 info: ::1 - - [18/May/2024:19:09:16 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:17 info: ::1 - - [18/May/2024:19:09:17 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:24 info: ::1 - - [18/May/2024:19:09:24 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:25 info: ::1 - - [18/May/2024:19:09:25 +0000] "GET /blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+2024-05-19 00:39:26 info: ::1 - - [18/May/2024:19:09:26 +0000] "GET /non-blocking HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
