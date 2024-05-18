@@ -1,0 +1,32 @@
+{
+  "name": "worker-threads",
+  "version": "1.0.0",
+  "description": "Exploring the use cases of the worker threads",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f .env nodemon src/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-chaurasiyaa/Node-Js.git"
+  },
+  "keywords": [
+    "worker",
+    "worker-threads"
+  ],
+  "author": "Deepak Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-chaurasiyaa/Node-Js/issues"
+  },
+  "homepage": "https://github.com/deepak-chaurasiyaa/Node-Js#readme",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
