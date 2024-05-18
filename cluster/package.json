@@ -1,0 +1,24 @@
+{
+  "name": "learn-cluster",
+  "version": "1.0.0",
+  "description": "Cluster applications and its usase ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-chaurasiyaa/Node-Js.git"
+  },
+  "keywords": [
+    "Cluster",
+    "cluster",
+    "clustering"
+  ],
+  "author": "Deepak Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-chaurasiyaa/Node-Js/issues"
+  },
+  "homepage": "https://github.com/deepak-chaurasiyaa/Node-Js#readme"
+}
